@@ -1,6 +1,6 @@
 {
   "name": "react-native-strobe",
-  "version": "1.0.0",
+  "version": "1.0.",
   "description": "Customizable strobe for react native",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,13 @@
     "url": "https://github.com/RNEvok/react-native-strobe"
   },
   "author": "Evok",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "strobe",
+    "react-native",
+    "react-native-strobe",
+    "strobe-view",
+    "react-component"
+  ]
 
 }

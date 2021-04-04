@@ -170,7 +170,7 @@ customStrobeTextStyle?: ViewStyle;
 Override StrobeTextStyle
 
 ## How to form wave data (Node js)
-* [useful package](https://github.com/bbc/audiowaveform)
+* [audiowaveform package](https://github.com/bbc/audiowaveform)
 
 ```javascript
 const { exec } = require('child_process')

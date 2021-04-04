@@ -26,70 +26,71 @@ yarn add react-native-strobe
 
 ## Props
 
-liteMode: boolean;
 
+```
+### liteMode: boolean;
 ```
 render strobe as a small block
-```
-paused: boolean;
 
+
+```
+### paused: boolean;
 ```
 is the track paused at the moment
-```
-buttonPosition?: 'bottomCenter' | 'bottomRight';
 
+```
+### buttonPosition?: 'bottomCenter' | 'bottomRight';
 ```
 Position of "close" button
-```
-defaultText?: string;
 
+```
+### defaultText?: string;
 ```
 Placeholder
-```
-defaultColor1Index?: number;
 
+```
+### defaultColor1Index?: number;
 ```
 Default index (in strobeColorsArray) of first strobe color
-```
-defaultColor2Index?: number;
 
+```
+### defaultColor2Index?: number;
 ```
 Default index (in strobeColorsArray) of second strobe color
-```
-maxSampleValue?: number;
 
+```
+### maxSampleValue?: number;
 ```
 128 by default
-```
-strobeColorsArray?: string[];
 
+```
+### strobeColorsArray?: string[];
 ```
 Your's array of colors for strobe
-```
-syncInterval: number;
 
+```
+### syncInterval: number;
 ```
 interval (in milliseconds) between updates of the progress prop
-```
-useGradient?: boolean;
 
+```
+### useGradient?: boolean;
 ```
 Use gradient  feautures
-```
-progress: number;
 
+```
+### progress: number;
 ```
 (In seconds) - current playing time
-```
-songDuration: number;
 
+```
+### songDuration: number;
 ```
 (In seconds) - track duration
-```
-waveform?: Waveform;
 
 ```
-Waveform data:
+### waveform?: Waveform;
+
 type Waveform = {
   bits: number;
   channels: number;
@@ -99,54 +100,55 @@ type Waveform = {
   samples_per_pixel: number;
 }
 ```
-samplesInSec: number;
 
 ```
+### samplesInSec: number;
+
 Use this formula to calculate samplesInSec number:
 samplesInSec = Math.round(waveform.length * 2 / durationSec)
 waveform - samples array
 durationSec - duration of the track
 ```
-updatesInSecond?: number;
 
+```
+### updatesInSecond?: number;
 ```
 5 by default
-```
-showCloseButton?: boolean;
 
+```
+### showCloseButton?: boolean;
 ```
 default is true
-```
-closeStrobe: () => void;
 
+```
+### closeStrobe: () => void;
 ```
 callback when close button is pressed
-```
-customLiteContainerStyle?: ViewStyle;
 
+```
+### customLiteContainerStyle?: ViewStyle;
 ```
 Override LiteContainerStyle
-```
-customContainerStyle?: ViewStyle;
 
+```
+### customContainerStyle?: ViewStyle;
 ```
 Override ContainerStyle
-```
-customBlockStyle?: ViewStyle;
 
+```
+### customBlockStyle?: ViewStyle;
 ```
 Override BlockStyle
-```
-customTextContainerStyle?: ViewStyle;
 
+```
+### customTextContainerStyle?: ViewStyle;
 ```
 Override TextContainerStyle
-```
-customStrobeTextStyle?: ViewStyle;
 
 ```
-Override StrobeTextStyle
+### customStrobeTextStyle?: ViewStyle;
 ```
+Override StrobeTextStyle
 
 ## Built With
 
@@ -154,8 +156,8 @@ Override StrobeTextStyle
 
 ## Authors
 
-* **Me** - *Initial work* -
+* **Me** - *Initial work* - [Profile](https://github.com/RNEvok)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details
